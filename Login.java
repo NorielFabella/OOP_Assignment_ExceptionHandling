@@ -14,7 +14,7 @@ public class Login
         {
             try
         {
-            System.out.println("Please type enter password:");
+            System.out.print("Please type enter password: ");
             passInput = input.nextLine();
 
             if(passInput.equals(password))
